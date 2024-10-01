@@ -10,7 +10,7 @@ export default function Especificacoes(props: EspecificacoesProps) {
     const { produto } = props;
 
     return produto ? (
-        <div className="flex-1 flex flex-col gap-1">
+        <div className="flex-1 flex flex-col gap-1 bg-[#222222] p-4 rounded-lg text-white" >
             <div className="flex mb-3">
                 <Tag label={produto.especificacoes.destaque!} icone={IconTable} />
             </div>
