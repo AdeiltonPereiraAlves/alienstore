@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #EBEBEB;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #EBEBEB;
+    --foreground: #EBEBEB;
   }
 }
 
@@ -23,5 +23,10 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@layer components{
+  .container{
+    @apply max-w-7xl mx-auto px-10;
   }
 }
