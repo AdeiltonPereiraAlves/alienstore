@@ -11,7 +11,7 @@ export default function ProdutoNaoEncontrado(props: ProdutoNaoEncontradoProps) {
             <IconDevicesPcOff size={180} stroke={0.5}  />
             <span>Produtos não encontrados</span>
             {!props.semBotaoVoltar && (
-                <Link href="/" className="button bg-violet-400">
+                <Link href="/" className="button bg-green-400">
                     Voltar
                 </Link>
             )}
